@@ -23,7 +23,8 @@ namespace beyondApp.Controllers
         [HttpGet("FirstTask")]
         public  ActionResult<string> GetType()
         {
-            return Ok(DateTime.Now.ToString("o", CultureInfo.InvariantCulture));
+            var _formatServer = DateTime.Now.ToString("o", CultureInfo.InvariantCulture);            
+            return Ok(new { _formatServer });
         }
 
     }
