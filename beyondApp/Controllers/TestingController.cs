@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Globalization;
 
 namespace beyondApp.Controllers
 {
@@ -17,6 +18,12 @@ namespace beyondApp.Controllers
         public TestingController(ILogger<TestingController> logger)
         {
             _logger = logger;
+        }
+
+        [HttpGet("FirstTask")]
+        public  ActionResult<string> GetType()
+        {
+            return Ok(DateTime.Now.ToString("o", CultureInfo.InvariantCulture));
         }
 
     }
