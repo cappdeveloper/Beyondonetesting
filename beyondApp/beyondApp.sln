@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "beyondApp", "beyondApp.csproj", "{E0939F62-2872-4EF5-8841-B7977C0F50BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0939F62-2872-4EF5-8841-B7977C0F50BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0939F62-2872-4EF5-8841-B7977C0F50BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0939F62-2872-4EF5-8841-B7977C0F50BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0939F62-2872-4EF5-8841-B7977C0F50BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8035FAEE-2443-47FF-8DE1-893DE1121F16}
+	EndGlobalSection
+EndGlobal
